@@ -1,0 +1,66 @@
+
+
+header {
+    height: 5em;
+    width: auto;
+
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+}
+
+.navbar {
+    height: 8em;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+
+a, p {
+    font-family: 'DatalegreyaThin';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.left-header {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.right-header {
+    width: 15em;
+    margin: 1em;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section { 
+    height: 20em;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yo {
+    font-size: 40px;
+}
+
+footer {
+    height: 5em;
+    width: auto;
+
+    border: 1px 0 0 1px solid brown;
+}
