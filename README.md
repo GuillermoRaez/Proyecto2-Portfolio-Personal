@@ -1,4 +1,20 @@
-# Proyecto2 Portfolio
+# Proyecto2 Pagina Web Portfolio
 
-- Este segundo proyecto consiste en crear una pagina web con HTML5 y CSS3, con la  posibilidad de incluir Bootstrap y JavaScript.
+Este segundo proyecto consiste en crear una pagina web con los siguientes lenguajes de programación:
+- HTML5,
+- CSS3.
 
+Con la posibilidad de poder incluir los siguientes lenguajes:
+
+- JavaScript,
+- Bootstrap.
+
+La prueba consiste en crear 3 paginas webs:
+
+- Pagina principal,
+- Pagina de Contactos,
+- Pagina del Portafolio.
+
+Cada pagina necesita tener un Layout de CSS (Flexbox o Grid) y que sea Responsive.
+
+En nuestro caso, hemos optado por el Layout de Flexbox con cierta respuesta Responsive.
