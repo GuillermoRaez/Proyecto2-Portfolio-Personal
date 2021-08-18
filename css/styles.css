@@ -1,51 +1,22 @@
-@font-face {
-  font-family:'Trade Winds', 'cursive';
-  src: url(../ttf/Trade_Winds/TradeWinds-Regular.ttf);
+
+.carousel-item {
+  height: 28rem;
+  background: #777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
-html {
-  overflow: auto;
+.slider-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
 }
 
-body {
-  margin: 0;
-  overflow: auto;
-  font-family: 'Trade Winds', 'cursive';
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none; 
-}
 
-/* Header styles modification */
-
-.navbar {
-  height: 5em;
-  width: 100%;
-  background-image: linear-gradient(to bottom right, black, brown);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.left-header {
-  margin: 1em;
-}
-
-#logo {
-  height: 5.5em;
-  width: 5.5em;
-
-  margin-top: 0.5em;
-  cursor: pointer;
-}
-
-.right-header {
-  width: 20em;
-  margin: 2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 /* :hover .home {}
 
@@ -58,25 +29,6 @@ a {
   cursor: pointer;
 }
 
-section { 
-  height: 40em;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: radial-gradient(circle, black, red);
-}
-
-.container {
-  margin-inline: auto;
-  width: auto;
-  margin: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 #yo {
     font-size: 40px;
 }
@@ -86,13 +38,11 @@ section {
 footer {
     height: 7em;
     width: auto;
-    background-color: black;
 }
 
 .footbar {
   height: 7em;
   width: auto;
-  background-image: linear-gradient(to top left, black, brown);
 }
 
 .img {
