@@ -1,48 +1,203 @@
-* {
-    box-sizing: border-box;
+@font-face {
+    font-family:'Trade Winds', 'cursive';
+    src: url(../ttf/Trade_Winds/TradeWinds-Regular.ttf);
+  }
+  
+html {
+    overflow: auto;
 }
-
-header {
-    height: 5em;
-    width: auto;
-
-    border-top: 1px solid brown;
-    border-bottom: 1px solid brown;
-}
-
-.navbar {
-    height: 8em;
-    width: auto;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-a {
-    color: black;
-    text-decoration: underline;
-}
-
-
-a, p {
-    font-family: 'DatalegreyaThin';
+  
+body {
+    margin: 0;
+    overflow: auto;
+    font-family: 'Trade Winds', 'cursive';
     font-weight: normal;
     font-style: normal;
+    text-decoration: none; 
 }
-
-.left-header {
+  
+  /* Header styles modification */
+  
+.navbar {
+    height: 5em;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, black, brown);
     display: flex;
-    justify-content: flex-start;
-    padding-top: 10px;
-}
-
-.right-header {
-    width: 15em;
-    margin: 1em;
-
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+  
+.left-header {
+    margin: 1em;
+}
+  
+#logo {
+    height: 5.5em;
+    width: 5.5em;
+  
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+  
+.right-header {
+    width: 20em;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  /* :hover .home {}
+  
+  :hover .contact {}
+  
+  :hover .portfolio {} */
+  a {
+    all: unset;
+    color: red;
+    cursor: pointer;
+  }
+
+section {
+    height: 40em;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoconsola {
+    height: 40em;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardvc {
+    transition-duration: 1s;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videojuego {
+    height: 40em;
+    width: 33.33%;
+    background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardvj {
+    transition-duration: 1s;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.streaming {
+    height: 40em;
+    width: 33.33%;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardst {
+    transition-duration: 1s;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Apartado footer */
+
+footer {
+    height: 7em;
+    width: auto;
+    background-color: black;
+}
+
+.footbar {
+  height: 7em;
+  width: auto;
+  background-image: linear-gradient(to top left, black, brown);
+}
+
+.img {
+    height: auto;
+    overflow: hidden;
+    color: red;
+}
+
+.upfoot {
+  height: 2.5em;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+}
+
+.downfoot {
+  height: 2.5em;
+  width: 100%;
+  margin: 1px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linea {
+  height: 1.5em;
+  width: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blank {
+  height: 1em;
+  width: 8em;
+}
+
+.blank2 {
+  width: 2em;
+}
+
+.al {
+  font-size: 12px;
+  color: red;
+  text-decoration: underline;
 }
