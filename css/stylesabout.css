@@ -1,0 +1,22 @@
+@font-face {
+    font-family: firstfont;
+    src: url("../fonts/Brusthy.ttf") format("truetype");
+}
+  
+* {
+    margin: 0;
+    font-family: firstfont;
+}
+
+.navbar-brand {
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+  
+.nav-link {
+    font-size: 1.5em;
+}
+  
+ul {
+    margin-right: 0.5em;
+}
